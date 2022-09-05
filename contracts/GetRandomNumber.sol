@@ -31,8 +31,7 @@ contract GetRandomNumber is VRFConsumerBaseV2 {
     address s_owner;
 
     /*
-    subscriptionId: 1040
-    VRFConsumerBaseV2: 
+    subscriptionId: it's provided by chainlink subscriptions
     */
     constructor(uint64 subscriptionId) VRFConsumerBaseV2(vrfCoordinator) {
         COORDINATOR = VRFCoordinatorV2Interface(vrfCoordinator);
