@@ -50,10 +50,6 @@ contract GetRandomNumber is VRFConsumerBaseV2 {
         );
     }
 
-    // function addToArray(uint _num) public {
-    //     s_randomWords.push(_num);
-    // }
-
     //it's a default callback function used to do something with the random data
     //in this example it's storing it in the s_randomWords
     function fulfillRandomWords(
