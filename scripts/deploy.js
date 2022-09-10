@@ -46,3 +46,5 @@ main()
   });
 
 //deployed: 0x4492a7c34fea211Fd790df04197C4Cbf8B0be62f
+//npx hardhat compile
+//npx hardhat run scripts/deploy.js --network goerli
